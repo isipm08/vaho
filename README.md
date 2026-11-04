@@ -1,4 +1,28 @@
 # Vaho
+*tocar lo que apenas se ve*
+
+- temática: ventana empañada, la cual detrás de esta se visualizará un paisaje, en donde al deslizar o desplazar tu dedo por el teléfono esta se limpiará, luego aparecerá la imagen y se escucharán con mayor claridad los sonidos de ese lugar. Al momento que dejas de tocar la ventana se vuelve a empañar de forma automática y el sonido disminuye lentamente.
+- "acariciar una superficie, la cual permite ver y escuchar lo que hay detrás de esta, al soltarla, vuelve a ocultarse"
+- "lo que descubres no permanece visible para siempre"
+- "toca para descubrir lo que hay detrás"
+
+| Gesto en el teléfono | Imagen en el computador | Sonido |
+|---|---|---|
+| Deslizar un dedo | Limpia el vidrio siguiendo el recorrido | Revela el ambiente de la zona |
+| Frotar repetidamente una zona | Esa parte queda más despejada | El sonido pierde su filtro y se oye más definido |
+| Usar dos dedos | Deja una huella de limpieza más amplia | Permite escuchar una zona mayor del paisaje |
+| Soltar | El vaho reaparece lentamente | Los sonidos vuelven a quedar amortiguados |
+
+- tener 6 audios grabados propios: lluvia o agua cayendo, hojas pisando, viento, pajaros
+- gráficas
+
+idea: poner cualquier imagen, la cual sea capaz de realizar un sintonia o crear música al revelar esta
+```
+cd "C:\Users\isido\Documents\Codex\2026-11-04\mir\outputs\vaho"
+python -m http.server 8000 --bind 0.0.0.0
+```
+- Vapor que despiden los cuerpos en determinadas condiciones de temperatura y humedad.
+
 Desarrolla tu propia plataforma web en la que un teléfono funcione como control remoto táctil de una experiencia de imagen y sonido. Puedes trabajar de forma individual o en duplas.
 
 El objetivo es entender el tacto como un sentido que se presta a otros. Importa qué gesto de la mano (posición, presión, cantidad de dedos, giro del teléfono) transforma qué cualidad de la imagen o del sonido, y qué relación construyes entre ellos. Te interesa menos que funcione y más que se sienta como tocar la imagen y escuchar ese contacto.
