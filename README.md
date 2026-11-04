@@ -5,7 +5,7 @@ El objetivo es entender el tacto como un sentido que se presta a otros. Importa 
 
 La herramienta base
 
-Trabajarás a partir de TactoLinks to an external site., que corre en el navegador. El teléfono envía en tiempo real sus datos por MQTT, un protocolo de mensajes que conecta dispositivos a través de un intermediario (broker). La experiencia en el computador los recibe y los lleva a audio e imagen mediante un panel de conexiones.
+Trabajarás a partir de <https://github.com/fefeliperoar/tacto>, que corre en el navegador. El teléfono envía en tiempo real sus datos por MQTT, un protocolo de mensajes que conecta dispositivos a través de un intermediario (broker). La experiencia en el computador los recibe y los lleva a audio e imagen mediante un panel de conexiones.
 ```
 Del teléfono: posición del toque (X, Y), cantidad de dedos, presión, diámetro del contacto y giro en tres ejes. Opcionalmente, micrófono y cámara.
 De la experiencia: audio (oscilador o tus propios sonidos), imagen (animación, video o cámara web), física del material (tela, agua, squishy, remolino) y un panel donde conectas cada dato con cada variable.
