@@ -1,4 +1,4 @@
-# tacto
+# Vaho
 Desarrolla tu propia plataforma web en la que un teléfono funcione como control remoto táctil de una experiencia de imagen y sonido. Puedes trabajar de forma individual o en duplas.
 
 El objetivo es entender el tacto como un sentido que se presta a otros. Importa qué gesto de la mano (posición, presión, cantidad de dedos, giro del teléfono) transforma qué cualidad de la imagen o del sonido, y qué relación construyes entre ellos. Te interesa menos que funcione y más que se sienta como tocar la imagen y escuchar ese contacto.
