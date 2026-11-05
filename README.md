@@ -5,6 +5,7 @@
 - "acariciar una superficie, la cual permite ver y escuchar lo que hay detrás de esta, al soltarla, vuelve a ocultarse"
 - "lo que descubres no permanece visible para siempre"
 - "toca para descubrir lo que hay detrás"
+- quizá implementar la idea de un juego tipo estetica terraria, juego el cual tenga distintos tipos de paisaje 
 
 | Gesto en el teléfono | Imagen en el computador | Sonido |
 |---|---|---|
