@@ -23,6 +23,9 @@ cd "C:\Users\isido\Documents\Codex\2026-11-04\mir\outputs\vaho"
 python -m http.server 8000 --bind 0.0.0.0
 ```
 - Vapor que despiden los cuerpos en determinadas condiciones de temperatura y humedad.
+- 1 escenario de bosque (contar historia) -- rescatar a la princesa
+- despejar escenario con sonido predeterminado
+- empezar aventura
 
 Desarrolla tu propia plataforma web en la que un teléfono funcione como control remoto táctil de una experiencia de imagen y sonido. Puedes trabajar de forma individual o en duplas.
 
