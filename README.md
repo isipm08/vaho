@@ -76,3 +76,34 @@ Gráfica aplicada a la plataforma.
 Calidad del README y de la reflexión.
 ```
 Entregables: enlace al repositorio, enlace a la plataforma publicada y un video de 30 a 60 segundos que muestre el teléfono controlando la experiencia.
+
+<https://pixabay.com/es/sound-effects/search/naturaleza/> sonidos 
+
+<https://pixabay.com/es/sound-effects/search/salto%20de%20videojuego/> salto
+
+<https://www.myinstants.com/es/instant/minecraft-xp-sound-1-30960/> minecraft
+
+<https://pixabay.com/es/sound-effects/search/agacharse/?pagi=3> agacharse
+
+<https://www.myinstants.com/es/instant/minecraft-click/> click
+
+<https://pixabay.com/es/sound-effects/search/cuenta%20regresiva/> cuenta regresiva
+
+<https://pixabay.com/es/sound-effects/search/walking%20game/> caminar
+
+<https://pixabay.com/es/sound-effects/search/movimiento%20del%20juego/> deslizar
+
+<https://www.myinstants.com/es/instant/besos-79164/> besos
+
+<https://www.myinstants.com/es/index/cl/> general
+
+<https://pixabay.com/es/> general
+
+
+flappy bird
+
+terraria
+
+animal crossing 
+
+historia que se cuenta de la experiencia de hacer vaho en el vidrio
