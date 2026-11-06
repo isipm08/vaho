@@ -85,7 +85,7 @@ Entregables: enlace al repositorio, enlace a la plataforma publicada y un video 
 
 <https://pixabay.com/es/sound-effects/search/agacharse/?pagi=3> agacharse
 
-<https://www.myinstants.com/es/instant/minecraft-click/> click
+<https://pixabay.com/es/sound-effects/search/menu-click/> click
 
 <https://pixabay.com/es/sound-effects/search/cuenta%20regresiva/> cuenta regresiva
 
