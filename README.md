@@ -1,12 +1,29 @@
 # Vaho
-*tocar lo que apenas se ve*
+## Concepto
+Vaho: Vapor que despiden los cuerpos en determinadas condiciones de temperatura y humedad.
 
-- temática: ventana empañada, la cual detrás de esta se visualizará un paisaje, en donde al deslizar o desplazar tu dedo por el teléfono esta se limpiará, luego aparecerá la imagen y se escucharán con mayor claridad los sonidos de ese lugar. Al momento que dejas de tocar la ventana se vuelve a empañar de forma automática y el sonido disminuye lentamente.
-- "acariciar una superficie, la cual permite ver y escuchar lo que hay detrás de esta, al soltarla, vuelve a ocultarse"
-- "lo que descubres no permanece visible para siempre"
+historia que se cuenta de la experiencia de hacer vaho en el vidrio
+
 - "toca para descubrir lo que hay detrás"
-- quizá implementar la idea de un juego tipo estetica terraria, juego el cual tenga distintos tipos de paisaje 
 
+## ¿Cómo funciona?
+
+Este juego de interacción se compone de distintas fases, las cuales son:
+1. ```Pantalla inicial:``` Al deslizar y desplazar el dedo mediante la pantalla de teléfono se despeja este paisaje en donde se basa toda el juego e historia. Se necesita un 80% de la pantalla despejada para poder visualizar la primera etapa del juego.
+2. ```Empezar aventura:``` Al despejar toda la pantalla de este vaho tenemos este botón, donde al oprimirlo, se visualiza la cuenta regresiva de la primera etapa, donde este personaje avanza de manera automática por la pantalla, a su vez en el teléfono se visualizarán dos botones (arriba - abajo), los cuales se presionan según el obstáculo que tiene que pasar el personaje, como lo son saltar troncos y agacharse para esquivar las ramas hasta llegar a la puerta final.
+3. ```Segunda etapa:``` Al llegar a la puerta final de la 1ra etapa, se pasará a la 2da etapa oprimiendo botón, donde esta consiste en pasar diez pares de tubos al ir pulsando el teléfono.
+4. ```Tercera etapa:``` Luego de finalizar la 2da etapa, se inicia la 3ra etapa, la cual al deslizar el dedo por la pantalla el personaje esquivará las rocas para seguir el camino.
+5. ```Etapa final:``` El último tramo es ya llegando a la meta, donde al deslizar el dedo por la pantalla del teléfono, este personaje se moverá llegando como límite la escalera, donde se tendrá que deslizar el dedo hacia arriba y llegar a la torre donde se encuentra la princesa. Al terminar esta etapa, se reinicia el juego y se vuelve a contar esta historia volviendo al vaho.
+
+Los 3 juegos inician con 3 vidas cada uno. Si estas se agotan, la opción de "reiniciar etapa" permite repetirla.
+
+## Conexiones
+
+### Referencias
+- animal crossing
+- terraria
+- flappy bird
+  
 | Gesto en el teléfono | Imagen en el computador | Sonido |
 |---|---|---|
 | Deslizar un dedo | Limpia el vidrio siguiendo el recorrido | Revela el ambiente de la zona |
@@ -14,26 +31,33 @@
 | Usar dos dedos | Deja una huella de limpieza más amplia | Permite escuchar una zona mayor del paisaje |
 | Soltar | El vaho reaparece lentamente | Los sonidos vuelven a quedar amortiguados |
 
-- tener 6 audios grabados propios: lluvia o agua cayendo, hojas pisando, viento, pajaros
-- gráficas
+## Sonidos
 
-idea: poner cualquier imagen, la cual sea capaz de realizar un sintonia o crear música al revelar esta
+El proyecto usa 9 archivos de audio extraídos de 
+
+<https://www.myinstants.com/es/index/cl/>
+
+<https://pixabay.com/es/> 
+
+| Archivo | Uso | Autoría, origen y licencia |
+|---|---|---|
+| `despejar.mp3` | Roce al despejar el vidrio | <https://www.myinstants.com/es/instant/minecraft-xp-sound-1-30960/> |
+| `salto.mp3` | Salto sobre troncos | <https://pixabay.com/es/sound-effects/search/salto%20de%20videojuego/> |
+| `agacharse.mp3` | Agacharse bajo ramas | <https://pixabay.com/es/sound-effects/search/agacharse/?pagi=3> |
+| `salto-etapa-2.mp3` | Impulso durante el vuelo | Pendiente de verificar |
+| `deslizar.mp3` | Cambio de carril | <https://pixabay.com/es/sound-effects/search/movimiento%20del%20juego/> |
+| `caminar.mp3` | Pasos y ascenso por la escalera | <https://pixabay.com/es/sound-effects/search/walking%20game/> |
+| `besos.mp3` | Encuentro en la torre | <https://www.myinstants.com/es/instant/besos-79164/> |
+| `click.mp3` | Pulsación de botones | <https://pixabay.com/es/sound-effects/search/menu-click/> |
+| `cuenta-regresiva.mp3` | Inicio de la primera etapa | <https://pixabay.com/es/sound-effects/search/cuenta%20regresiva/> |
+
 ```
 cd "C:\Users\isido\Documents\Codex\2026-11-04\mir\outputs\vaho"
 python -m http.server 8000 --bind 0.0.0.0
 ```
-- Vapor que despiden los cuerpos en determinadas condiciones de temperatura y humedad.
-- 1 escenario de bosque (contar historia) -- rescatar a la princesa
-- despejar escenario con sonido predeterminado
-- empezar aventura
-
-Desarrolla tu propia plataforma web en la que un teléfono funcione como control remoto táctil de una experiencia de imagen y sonido. Puedes trabajar de forma individual o en duplas.
 
 El objetivo es entender el tacto como un sentido que se presta a otros. Importa qué gesto de la mano (posición, presión, cantidad de dedos, giro del teléfono) transforma qué cualidad de la imagen o del sonido, y qué relación construyes entre ellos. Te interesa menos que funcione y más que se sienta como tocar la imagen y escuchar ese contacto.
 
-La herramienta base
-
-Trabajarás a partir de <https://github.com/fefeliperoar/tacto>, que corre en el navegador. El teléfono envía en tiempo real sus datos por MQTT, un protocolo de mensajes que conecta dispositivos a través de un intermediario (broker). La experiencia en el computador los recibe y los lleva a audio e imagen mediante un panel de conexiones.
 ```
 Del teléfono: posición del toque (X, Y), cantidad de dedos, presión, diámetro del contacto y giro en tres ejes. Opcionalmente, micrófono y cámara.
 De la experiencia: audio (oscilador o tus propios sonidos), imagen (animación, video o cámara web), física del material (tela, agua, squishy, remolino) y un panel donde conectas cada dato con cada variable.
@@ -95,15 +119,9 @@ Entregables: enlace al repositorio, enlace a la plataforma publicada y un video 
 
 <https://www.myinstants.com/es/instant/besos-79164/> besos
 
-<https://www.myinstants.com/es/index/cl/> general
-
-<https://pixabay.com/es/> general
 
 
-flappy bird
 
-terraria
 
-animal crossing 
 
-historia que se cuenta de la experiencia de hacer vaho en el vidrio
+
