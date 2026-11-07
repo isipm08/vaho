@@ -51,10 +51,10 @@ El proyecto usa 9 archivos de audio extraídos de
 | `click.mp3` | Pulsación de botones | <https://pixabay.com/es/sound-effects/search/menu-click/> |
 | `cuenta-regresiva.mp3` | Inicio de la primera etapa | <https://pixabay.com/es/sound-effects/search/cuenta%20regresiva/> |
 
-```
-cd "C:\Users\isido\Documents\Codex\2026-11-04\mir\outputs\vaho"
-python -m http.server 8000 --bind 0.0.0.0
-```
+
+
+
+# README
 
 El objetivo es entender el tacto como un sentido que se presta a otros. Importa qué gesto de la mano (posición, presión, cantidad de dedos, giro del teléfono) transforma qué cualidad de la imagen o del sonido, y qué relación construyes entre ellos. Te interesa menos que funcione y más que se sienta como tocar la imagen y escuchar ese contacto.
 
@@ -101,23 +101,7 @@ Calidad del README y de la reflexión.
 ```
 Entregables: enlace al repositorio, enlace a la plataforma publicada y un video de 30 a 60 segundos que muestre el teléfono controlando la experiencia.
 
-<https://pixabay.com/es/sound-effects/search/naturaleza/> sonidos 
 
-<https://pixabay.com/es/sound-effects/search/salto%20de%20videojuego/> salto
-
-<https://www.myinstants.com/es/instant/minecraft-xp-sound-1-30960/> minecraft
-
-<https://pixabay.com/es/sound-effects/search/agacharse/?pagi=3> agacharse
-
-<https://pixabay.com/es/sound-effects/search/menu-click/> click
-
-<https://pixabay.com/es/sound-effects/search/cuenta%20regresiva/> cuenta regresiva
-
-<https://pixabay.com/es/sound-effects/search/walking%20game/> caminar
-
-<https://pixabay.com/es/sound-effects/search/movimiento%20del%20juego/> deslizar
-
-<https://www.myinstants.com/es/instant/besos-79164/> besos
 
 
 
