@@ -1,7 +1,10 @@
 # VAHO · Un bosque al otro lado del vidrio
 
-> Borrador de entrega. Completar los créditos de audio y los enlaces antes de publicar.
+Integrantes: 
 
+*Isidora Pérez*
+
+Vaho es una experiencia web táctil y sonora. 
 ## 1. Concepto
 
 En **Vaho**, deslizar el dedo sobre el teléfono despeja una ventana empañada en el computador y hace audible el roce del gesto. Detrás del vidrio hay un bosque en pixel art. El paisaje se descubre por partes, siguiendo el recorrido de la mano. Cuando la mano se detiene, la huella queda visible y el sonido se atenúa.
