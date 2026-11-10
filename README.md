@@ -68,7 +68,7 @@ El proyecto usa 9 archivos de audio extraídos de
 | `despejar.mp3` | Roce al despejar el vidrio | <https://www.myinstants.com/es/instant/minecraft-xp-sound-1-30960/> |
 | `salto.mp3` | Salto sobre troncos | <https://pixabay.com/es/sound-effects/search/salto%20de%20videojuego/> |
 | `agacharse.mp3` | Agacharse bajo ramas | <https://pixabay.com/es/sound-effects/search/agacharse/?pagi=3> |
-| `salto-etapa-2.mp3` | Impulso durante el vuelo | Pendiente de verificar |
+| `salto-etapa-2.mp3` | Impulso durante el vuelo | <https://pixabay.com/es/sound-effects/search/salto/> |
 | `deslizar.mp3` | Cambio de carril | <https://pixabay.com/es/sound-effects/search/movimiento%20del%20juego/> |
 | `caminar.mp3` | Pasos y ascenso por la escalera | <https://pixabay.com/es/sound-effects/search/walking%20game/> |
 | `besos.mp3` | Encuentro en la torre | <https://www.myinstants.com/es/instant/besos-79164/> |
