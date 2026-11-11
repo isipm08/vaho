@@ -20,7 +20,7 @@ La propuesta busca que tocar, ver y oír se perciban como partes de una misma ac
 
 Este juego de interacción se compone de distintas fases, las cuales son:
 
-1. ```Pantalla inicial:``` Al deslizar y desplazar el dedo mediante la pantalla de teléfono se despeja este paisaje en donde se basa toda el juego e historia. Se necesita un 80% de la pantalla despejada para poder visualizar la primera etapa del juego.
+1. ```Pantalla inicial:``` Al deslizar y desplazar el dedo mediante la pantalla de teléfono se despeja este paisaje en donde se basa toda el juego e historia. Se necesita un 60% de la pantalla despejada para poder visualizar la primera etapa del juego.
 2. ```Empezar aventura:``` Al despejar toda la pantalla de este vaho tenemos este botón, donde al oprimirlo, se visualiza la cuenta regresiva de la primera etapa, donde este personaje avanza de manera automática por la pantalla, a su vez en el teléfono se visualizarán dos botones (arriba - abajo), los cuales se presionan según el obstáculo que tiene que pasar el personaje, como lo son saltar troncos y agacharse para esquivar las ramas hasta llegar a la puerta final.
 3. ```Segunda etapa:``` Al llegar a la puerta final de la 1ra etapa, se pasará a la 2da etapa oprimiendo botón, donde esta consiste en pasar diez pares de tubos al ir pulsando el teléfono.
 4. ```Tercera etapa:``` Luego de finalizar la 2da etapa, se inicia la 3ra etapa, la cual al deslizar el dedo por la pantalla el personaje esquivará las rocas para seguir el camino.
